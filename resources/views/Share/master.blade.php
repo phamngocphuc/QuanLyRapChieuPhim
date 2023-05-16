@@ -11,11 +11,6 @@
 <body class="hold-transition sidebar-mini layout-fixed">
 <div class="wrapper">
 
-  <!-- Preloader -->
-  <div class="preloader flex-column justify-content-center align-items-center">
-    <img class="animation__shake" src="/asset_admin/dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60">
-  </div>
-
   @include('Share.header')
 
   @include('Share.menu')
@@ -54,5 +49,6 @@
 
 @include('Share.js')
 
+@yield('javascript')
 </body>
 </html>
